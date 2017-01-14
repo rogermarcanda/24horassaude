@@ -1,0 +1,15 @@
+server:
+    port: 8080
+    contextPath: /24horassaude
+    tomcat:
+          access_log_enabled: true
+          basedir: target/tomcat
+security:
+    basic:
+        enabled: false
+spring:
+    thymeleaf:
+        cache: false
+logging:
+ level:
+  org.springframework.security: DEBUG
